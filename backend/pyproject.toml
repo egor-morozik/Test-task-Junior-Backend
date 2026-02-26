@@ -1,0 +1,25 @@
+[project]
+name = "test-task-junior-backend"
+version = "0.1.0"
+description = "Create test task"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django>=6.0.2",
+    "djangorestframework>=3.16.1",
+    "psycopg2-binary>=2.9.11",
+    "pytest>=9.0.2",
+    "pytest-django>=4.12.0",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "responses>=0.26.0",
+]
+
+[dependency-groups]
+dev = [
+    "django-stubs>=5.2.9",
+    "djangorestframework-stubs>=3.16.8",
+    "mypy>=1.19.1",
+    "ruff>=0.15.2",
+    "types-requests>=2.32.4.20260107",
+]
